@@ -1,6 +1,6 @@
 <html>
 <head>
-	<script src="memoryGame.js"></script>
+	
 </head>
 <body>
 	<h1>Memory</h1>
@@ -8,10 +8,6 @@
 	
 	<canvas id="myCanvas" width="500" height="170" style="border:1px solid #d3d3d3;">
 Your browser does not support the HTML5 canvas tag.</canvas>
-	<script>
-		drawCirOne();
-		drawCirTwo();
-		drawCirThree();
-	</script>
+<script src="memoryGame.js"></script>
 </body>
 </html>
