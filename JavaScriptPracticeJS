@@ -1,0 +1,4 @@
+function showInput() {
+	document.getElementById("title").innerHTML = document.getElementById("input").value;
+
+}
