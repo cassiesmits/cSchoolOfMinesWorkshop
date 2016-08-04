@@ -9,6 +9,13 @@
 	<input type="text"  id="input" value=""/>
 	<input id="button1" type="button" value ="Click enter once you have typed your name" onclick="changeTitle()";/>
 
+		<img src="imageOne.jpg" id="image">
+	
+	<select id="imageSelect">
+		<option value="imageOne.jpg">First Image</option>
+		<option value="imageTwo.jpeg">Second Image</option>
+	</select>
+	<input type="button" value="Submit" onclick="change()">
 </body>
 
 </html>
