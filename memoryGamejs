@@ -1,6 +1,13 @@
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+c.addEventListener("click", changeCir, false);
+
+	drawCirOne();
+	drawCirTwo();
+	drawCirThree();
+
 function drawCirOne() {
-	var c=document.getElementById("myCanvas");
-	var ctx=c.getContext("2d");
+	
 	ctx.beginPath();
 	ctx.arc(100,75,50,0,2*Math.PI);
 	ctx.stroke();
@@ -11,16 +18,15 @@ function drawCirOne() {
 	ctx.stroke();
 }
 function drawCirTwo() {
-	var c=document.getElementById("myCanvas");
-	var ctx=c.getContext("2d");
 	ctx.beginPath();
 	ctx.arc(250,75,50,0,2*Math.PI);
 	ctx.stroke();
 }
 function drawCirThree() {
-	var c=document.getElementById("myCanvas");
-	var ctx=c.getContext("2d");
 	ctx.beginPath();
 	ctx.arc(400,75,50,0,2*Math.PI);
 	ctx.stroke();
+}
+function changeCir() {
+	alert("hello");
 }
