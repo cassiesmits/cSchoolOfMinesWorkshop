@@ -2,3 +2,6 @@ function showInput() {
 	document.getElementById("title").innerHTML = document.getElementById("input").value;
 
 }
+function change() {
+	document.getElementById("image").src = document.getElementById("imageSelect").value;
+}
